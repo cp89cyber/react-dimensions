@@ -24,6 +24,27 @@ To install the pre-release version:
 $ npm install react-dimensions@next
 ```
 
+## Development Setup
+
+Bootstrap this repository on Debian/Ubuntu with Node 20 via `nvm`:
+
+```sh
+./scripts/bootstrap-dev.sh
+```
+
+Run verification only (no install attempts):
+
+```sh
+./scripts/bootstrap-dev.sh --verify-only
+```
+
+Start local development after setup:
+
+```sh
+nvm use
+npm start
+```
+
 ## API
 
 ### Dimensions([options])(MyComponent)
